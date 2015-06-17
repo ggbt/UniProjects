@@ -1,0 +1,60 @@
+body {
+  background: url("background.png");
+  text-align: center;
+  width: 99%;
+}
+
+.map {
+  width: 600px;
+  height: 600px;
+  display: inline-block;
+}
+
+.info > div {
+  width: 50%;
+  float: left;
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+  background-color: rgba(183, 45, 40, 0.78);
+}
+
+.info {
+  width: 98%;
+  overflow: hidden;
+
+  border: 1px solid #AA1E25;
+  -moz-box-shadow: 0 0 20px rgba(183, 45, 40, 0.78);
+  -webkit-box-shadow: 0 0 20px rgba(183, 45, 40, 0.78);
+  box-shadow: 0 0 20px rgba(183, 45, 40, 0.78);
+}
+
+.top {
+  position: fixed;
+  top: 0;
+
+  border-radius: 0px 0px 50px 50px;
+  -moz-border-radius: 0px 0px 50px 50px;
+  -webkit-border-radius: 0px 0px 50px 50px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+
+  border-radius: 50px 50px 0px 0px;
+  -moz-border-radius: 50px 50px 0px 0px;
+  -webkit-border-radius: 50px 50px 0px 0px;
+}
+
+body {
+  color: #E34141;
+  color: #E3B21F;
+  color: #ED6212;
+  color: #3CBB75;
+  color: #A7C774;
+  color: #D3F35A;
+  color: #F54BA2;
+  color: #47CECE;
+}
